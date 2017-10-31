@@ -20,6 +20,15 @@
 		04CC61A81F9DC422004DA24B /* UIBarButtomItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC61A71F9DC422004DA24B /* UIBarButtomItem+Extension.swift */; };
 		04CC625A1F9DF2D6004DA24B /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC62591F9DF2D6004DA24B /* PageTitleView.swift */; };
 		04CC625C1F9DF4B3004DA24B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC625B1F9DF4B3004DA24B /* Common.swift */; };
+		04CC625E1F9EF7A9004DA24B /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC625D1F9EF7A9004DA24B /* PageContentView.swift */; };
+		04CC62601F9F0384004DA24B /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC625F1F9F0384004DA24B /* UIColor-Extension.swift */; };
+		04CC62641FA17B04004DA24B /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC62631FA17B04004DA24B /* RecommendViewController.swift */; };
+		04CC62671FA1868A004DA24B /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC62651FA1868A004DA24B /* CollectionHeaderView.swift */; };
+		04CC62681FA1868A004DA24B /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CC62661FA1868A004DA24B /* CollectionHeaderView.xib */; };
+		04CC626B1FA18C54004DA24B /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC62691FA18C54004DA24B /* CollectionNormalCell.swift */; };
+		04CC626C1FA18C54004DA24B /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CC626A1FA18C54004DA24B /* CollectionNormalCell.xib */; };
+		04CC62711FA6C3A4004DA24B /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC626F1FA6C3A4004DA24B /* CollectionPrettyCell.swift */; };
+		04CC62721FA6C3A4004DA24B /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CC62701FA6C3A4004DA24B /* CollectionPrettyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +47,15 @@
 		04CC61A71F9DC422004DA24B /* UIBarButtomItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtomItem+Extension.swift"; sourceTree = "<group>"; };
 		04CC62591F9DF2D6004DA24B /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		04CC625B1F9DF4B3004DA24B /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		04CC625D1F9EF7A9004DA24B /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		04CC625F1F9F0384004DA24B /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		04CC62631FA17B04004DA24B /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		04CC62651FA1868A004DA24B /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		04CC62661FA1868A004DA24B /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		04CC62691FA18C54004DA24B /* CollectionNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		04CC626A1FA18C54004DA24B /* CollectionNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		04CC626F1FA6C3A4004DA24B /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		04CC62701FA6C3A4004DA24B /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				04CC61A71F9DC422004DA24B /* UIBarButtomItem+Extension.swift */,
+				04CC625F1F9F0384004DA24B /* UIColor-Extension.swift */,
 				04CC625B1F9DF4B3004DA24B /* Common.swift */,
 			);
 			path = Extension;
@@ -106,7 +125,11 @@
 			children = (
 				04CC61961F9DB69B004DA24B /* Home.storyboard */,
 				04CC61A41F9DBB30004DA24B /* HomeViewController.swift */,
+				04CC62631FA17B04004DA24B /* RecommendViewController.swift */,
+				04CC62651FA1868A004DA24B /* CollectionHeaderView.swift */,
+				04CC62661FA1868A004DA24B /* CollectionHeaderView.xib */,
 				04CC62591F9DF2D6004DA24B /* PageTitleView.swift */,
+				04CC625D1F9EF7A9004DA24B /* PageContentView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -124,6 +147,10 @@
 			children = (
 				04BFEC571F9D8FCD006D48C3 /* Main.storyboard */,
 				04CC61A21F9DB84E004DA24B /* MainViewController.swift */,
+				04CC62691FA18C54004DA24B /* CollectionNormalCell.swift */,
+				04CC626A1FA18C54004DA24B /* CollectionNormalCell.xib */,
+				04CC626F1FA6C3A4004DA24B /* CollectionPrettyCell.swift */,
+				04CC62701FA6C3A4004DA24B /* CollectionPrettyCell.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -212,10 +239,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BFEC5E1F9D8FCD006D48C3 /* LaunchScreen.storyboard in Resources */,
+				04CC62681FA1868A004DA24B /* CollectionHeaderView.xib in Resources */,
+				04CC626C1FA18C54004DA24B /* CollectionNormalCell.xib in Resources */,
 				04BFEC5B1F9D8FCD006D48C3 /* Assets.xcassets in Resources */,
 				04BFEC591F9D8FCD006D48C3 /* Main.storyboard in Resources */,
 				04CC619B1F9DB705004DA24B /* Live.storyboard in Resources */,
 				04CC61981F9DB69B004DA24B /* Home.storyboard in Resources */,
+				04CC62721FA6C3A4004DA24B /* CollectionPrettyCell.xib in Resources */,
 				04CC61A11F9DB7BC004DA24B /* Profile.storyboard in Resources */,
 				04CC619E1F9DB76B004DA24B /* Follow.storyboard in Resources */,
 			);
@@ -229,10 +259,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BFEC541F9D8FCD006D48C3 /* AppDelegate.swift in Sources */,
+				04CC62671FA1868A004DA24B /* CollectionHeaderView.swift in Sources */,
+				04CC62601F9F0384004DA24B /* UIColor-Extension.swift in Sources */,
+				04CC62641FA17B04004DA24B /* RecommendViewController.swift in Sources */,
 				04CC61A31F9DB84E004DA24B /* MainViewController.swift in Sources */,
 				04CC625A1F9DF2D6004DA24B /* PageTitleView.swift in Sources */,
+				04CC625E1F9EF7A9004DA24B /* PageContentView.swift in Sources */,
 				04CC61A51F9DBB30004DA24B /* HomeViewController.swift in Sources */,
 				04CC625C1F9DF4B3004DA24B /* Common.swift in Sources */,
+				04CC62711FA6C3A4004DA24B /* CollectionPrettyCell.swift in Sources */,
+				04CC626B1FA18C54004DA24B /* CollectionNormalCell.swift in Sources */,
 				04CC61A81F9DC422004DA24B /* UIBarButtomItem+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,11 +438,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NN74RUXEM7;
 				INFOPLIST_FILE = douyuzb/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiqiabc..douyuzb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,11 +454,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NN74RUXEM7;
 				INFOPLIST_FILE = douyuzb/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiqiabc..douyuzb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
